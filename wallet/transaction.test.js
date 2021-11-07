@@ -93,4 +93,14 @@ describe("Transaction", () => {
       });
     });
   });
+
+  describe('update()', () => {
+    it('outputs the amount to the next recipient', () => {});
+
+    it('subtracts the amount from the original sender amount', () => {});
+
+    it('maintains a total output that matches the input amount', () => {});
+
+    it('re-signs the transaction', () => {});
+  });
 });
